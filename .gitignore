@@ -1,0 +1,39 @@
+# build output
+dist
+
+# generated types
+.php-tmp
+
+# dependencies
+node_modules
+vendor
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+*.local
+
+# macOS-specific files
+.DS_Store
+
+#.gitignore, .eslintignore, .prettierignore
+    
+# Pinegrow temp folders
+_pg* 
+
+## optional
+pinegrow.json
+
+
+## optional
+## Uncomment the below as per your needs
+## add any d.ts files that are auto-generated, for eg,
+# auto-imports.d.ts
+# components.d.ts
+# composables.d.ts
+## rollup visualizer
+stats.html

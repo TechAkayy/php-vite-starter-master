@@ -11,6 +11,7 @@ export default {
 		'./partials/**/*.{php,html}',
 		'./src/**/*.{js,jsx,ts,tsx,svg}',
 		'./_pginfo/**/*.{html,js}',
+		'./node_modules/flowbite/**/*.{js,ts}',
 	],
 	theme: {
 		extend: {},
@@ -21,5 +22,6 @@ export default {
 			fonts: pg_fonts,
 			backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
 		}),
+		require('flowbite/plugin'),
 	],
 } satisfies Config;

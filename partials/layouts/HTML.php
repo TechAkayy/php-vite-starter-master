@@ -24,11 +24,11 @@ class HTML
       <title><?= $this->title; ?></title>
 
       <link href="/src/styles/global.scss" rel="stylesheet" />
-      <link href="/src/styles/tailwind.css" rel="stylesheet" />
     </head>
 
-    <body class="w-screen h-screen flex items-center justify-center bg-neutral-50">
+    <body class="flex items-center justify-center bg-neutral-50">
       <?= $output; ?>
+      <script src="/src/scripts/flowbite.ts" type="module"></script>
     </body>
 
     </html>

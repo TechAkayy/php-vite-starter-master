@@ -26,7 +26,7 @@ export default defineConfig(({ command }) => {
 				tailwindcss: {
 					/* Please ensure that you update the filenames and paths to accurately match those used in your project. */
 					configPath: 'tailwind.config.ts',
-					cssPath: 'src/styles/tailwind.css',
+					cssPath: 'src/styles/global.scss',
 					// themePath: false, // Set to false so that Design Panel is not used
 					// restartOnConfigUpdate: true,
 					restartOnThemeUpdate: true,
